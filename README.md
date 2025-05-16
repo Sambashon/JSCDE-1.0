@@ -1,2 +1,2 @@
 # JSCDE-1.0
-Javascript canvas design editor
+JavaScript Canvas Design Editor
