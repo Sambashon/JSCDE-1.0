@@ -2,7 +2,10 @@
 <html lang="esp">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="JSCGL.js"></script>
+        <script src="JSPA.js"></script>
+        <script src="index.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -10,7 +13,7 @@
         <title>Wasdas</title>
     </head>
     
-    <body>
+     <body>
         <header>
             <nav>
                 <nav class="Title">
@@ -30,15 +33,16 @@
         </header>
 
         <main class="content">
-            <section>
-                <p>Contenido principal aquí</p>
+            <section id="canvas">
+                <canvas id="main-canvas"></canvas>
+                <section id="loading-img">
+                    <img id="loading" src="loading.gif">
+                </section>
                 <a href="#flyoutmenu"> 
                     <div class="flyoutmenubutton">
                         <h1 class="links">></h1>
                     </div>
                 </a>
-                
-                <canvas></canvas>
             </section>
             <aside>
                 <div class="botones">
